@@ -1,0 +1,68 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.banner {
+    display: flex;
+    align-items: center;
+    width: 100%;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position-y: -60px;
+    height: 70vh;
+    background-image: url(./com1.jpeg);
+}
+.container {
+    width: 1200px;
+    margin: 0 auto;
+}
+.banner-name {
+    font-size: 50px;
+    color: white;
+}
+.person-name {
+    font-size: 25px;
+    color: rgb(2, 107, 2);
+    font-weight: 800;
+}
+.btn {
+    width: 250px;
+    height: 50px;
+    background-color: rgb(2, 107, 2);
+    border: none;
+    border-radius: 5px;
+    color: white;
+    font-size: 19px;
+    font-weight: 500;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.mt-5 {
+    margin-top: 15px;
+}
+.card-img-top {
+    width: 400px;
+    height: 150px;
+}
+
+li {
+    display: inline-block;
+    padding: 20px 30px;
+    
+}
+.data {
+    font-size: 30px;
+    font-weight: 600;
+}
+.card-body {
+    background-color: azure;
+    width: 400px;
+}
+.col-3 {
+    display: flex;
+}
+.text {
+    padding: 20px;
+}
